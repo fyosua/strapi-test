@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
         apiToken: "IPg0nk50XtEGNfJ5xBs86G7y",
         appFilter: "strapi-test-fntdjisv1-fyosua.vercel.app",
         // teamFilter: "your-team-id-on-vercel",
-        roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
+        roles: ["strapi-super-admin"],
       },
     },
   });
