@@ -11,17 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.13.3",
-    "@strapi/plugin-users-permissions": "4.13.3",
     "@strapi/strapi": "4.13.3",
-    "better-sqlite3": "8.5.0",
-    "strapi-plugin-vercel-deploy": "^1.4.0"
+    "@strapi/plugin-users-permissions": "4.13.3",
+    "@strapi/plugin-i18n": "4.13.3",
+    "better-sqlite3": "8.5.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "237b731b-52f9-49d8-ab2a-53a8c11d42bd"
+    "uuid": "f8ba0e85-58cc-4a86-b462-2656b0ab1681"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
