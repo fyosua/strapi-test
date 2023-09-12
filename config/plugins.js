@@ -13,7 +13,7 @@ module.exports = ({ env }) => ({
     "strapi-gtm-module": {
       config: {
         gtmId: 'GTM-N9JFXTKX',
-        // measurementId: '',
+        measurementId: 'G-1JE2XX3VXJ',
       },
     },
   });
