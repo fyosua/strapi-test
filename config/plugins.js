@@ -10,4 +10,10 @@ module.exports = ({ env }) => ({
         roles: ["strapi-super-admin"],
       },
     },
+    "strapi-gtm-module": {
+      config: {
+        gtmId: 'GTM-N9JFXTKX',
+        // measurementId: '',
+      },
+    },
   });
