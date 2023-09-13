@@ -16,4 +16,16 @@ module.exports = ({ env }) => ({
         measurementId: 'G-1JE2XX3VXJ',
       },
     },
+    'graphql': {
+      config: {
+        endpoint: '/graphql',
+        shadowCRUD: true,
+        playgroundAlways: false,
+        depthLimit: 7,
+        amountLimit: 100,
+        apolloServer: {
+          tracing: false,
+        },
+      },
+    },
   });
