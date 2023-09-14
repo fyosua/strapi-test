@@ -4,7 +4,8 @@
   "info": {
     "singularName": "review",
     "pluralName": "reviews",
-    "displayName": "reviews"
+    "displayName": "reviews",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,6 +45,12 @@
       "required": true,
       "min": 1,
       "max": 10
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "reviews"
     }
   }
 }
